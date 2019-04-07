@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[个人博客搭建]]></title>
+    <url>%2F2019%2F04%2F07%2F2%2F</url>
+    <content type="text"><![CDATA[使用github pages服务搭建博客 &nbsp;&nbsp;准备工作 &nbsp;&nbsp;所需： &nbsp;&nbsp;拥有github账号;&nbsp;&nbsp;安装node.js、npm;&nbsp;&nbsp;安装git.]]></content>
+      <categories>
+        <category>IT</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+        <tag>github</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[海子的诗（1）]]></title>
     <url>%2F2019%2F04%2F06%2F1%2F</url>
     <content type="text"><![CDATA[第一弹 活在珍贵的人间 —海子活在这珍贵的人间 太阳强烈 水波温柔 一层层白云覆盖着 我 踩在青草上 感到自己是彻底干净的黑土块 活在这珍贵的人间 泥土高溅 扑打面颊 活在这珍贵的人间 人类和植物一样幸福 爱情和雨水一样幸福 ——选自《海子诗全集》，作家出版社]]></content>
