@@ -186,7 +186,7 @@ th {
 body {
   position: relative;
   font-family: 'Lato', -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "STHeiti", "Source Han Sans SC", "Noto Sans CJK SC", "WenQuanYi Micro Hei", "Droid Sans Fallback", "Microsoft YaHei", sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 2;
   color: #555;
   background: #eee;
@@ -203,7 +203,7 @@ body {
 }
 @media (min-width: 1600px) {
   body {
-    font-size: 16px;
+    font-size: 18px;
   }
 }
 h1,
@@ -1284,7 +1284,7 @@ pre .javascript .function {
 .post-body .figure .caption {
   margin: -20px auto 15px;
   text-align: center;
-  font-size: 14px;
+  font-size: 16px;
   color: #999;
   font-weight: bold;
   line-height: 1;
@@ -1691,13 +1691,6 @@ pre .javascript .function {
 .fancybox-close:hover {
   border: none;
 }
-.post-copyright {
-  margin: 2em 0 0;
-  padding: 0.5em 1em;
-  border-left: 3px solid #ff1700;
-  background-color: #f9f9f9;
-  list-style: none;
-}
 .post-widgets {
   border-top: 1px solid #eee;
   padding-top: 9px;
@@ -1916,7 +1909,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #83e8b3;
+  background: #ff18b0;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3270,7 +3263,7 @@ pre .javascript .function {
   line-height: 1.5;
 }
 .container {
-  background-color: #ccc;
+  background-color: rgba(0,0,0,0.75);
 }
 .header-inner {
   padding-top: 0px;
@@ -3289,7 +3282,7 @@ pre .javascript .function {
   width: 100%;
 }
 .site-meta {
-  background-image: #000;
+  background-image: linear-gradient(90deg, #f79533 0%, #f37055 15%, #ef4e7b 30%, #a166ab 44%, #5073b8 58%, #1098ad 72%, #07b39b 86%, #6dba82 100%);
 }
 .brand {
   background-color: rgba(255,255,255,0);

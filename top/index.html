@@ -125,7 +125,7 @@
 
 
 
-  <meta name="keywords" content="hexo,博客,生活,技术,文学">
+  <meta name="keywords" content="top,文章阅读量排行榜">
 
 
 
@@ -138,16 +138,18 @@
 
 
 
-<meta name="description" content="IT 文艺">
+<meta name="description" content="博客文章阅读量排行榜">
+<meta name="keywords" content="top,文章阅读量排行榜">
 <meta property="og:type" content="website">
-<meta property="og:title" content="南方车站的聚会">
-<meta property="og:url" content="https://fox-w.github.io/tags/github/index.html">
+<meta property="og:title" content="TopX &#x2F;* 可以不为 TopX，随便取 *&#x2F;">
+<meta property="og:url" content="https://fox-w.github.io/top/index.html">
 <meta property="og:site_name" content="南方车站的聚会">
-<meta property="og:description" content="IT 文艺">
+<meta property="og:description" content="博客文章阅读量排行榜">
 <meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2019-04-08T12:13:39.459Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="南方车站的聚会">
-<meta name="twitter:description" content="IT 文艺">
+<meta name="twitter:title" content="TopX &#x2F;* 可以不为 TopX，随便取 *&#x2F;">
+<meta name="twitter:description" content="博客文章阅读量排行榜">
 
 
 
@@ -177,13 +179,13 @@
 
 
 
-  <link rel="canonical" href="https://fox-w.github.io/tags/github/">
+  <link rel="canonical" href="https://fox-w.github.io/top/">
 
 
 
 
 
-  <title>Tag: github | 南方车站的聚会</title>
+  <title>TopX /* 可以不为 TopX，随便取 */ | 南方车站的聚会</title>
   
 
 
@@ -212,7 +214,7 @@
     
   
 
-  <div class="container sidebar-position-left ">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -358,65 +360,65 @@
           <div id="content" class="content">
             
 
-  
-  
-  
-  <div class="post-block tag">
+  <div id="posts" class="posts-expand">
+    
+    
+    
+    <div class="post-block page">
+      <header class="post-header">
 
-    <div id="posts" class="posts-collapse">
-      <div class="collection-title">
-        <h1>github<small>Tag</small>
-        </h1>
+	<h1 class="post-title" itemprop="name headline">TopX /* 可以不为 TopX，随便取 */</h1>
+
+
+	<div class="post-meta">
+		<div class="post-description">博客文章阅读量排行榜</div>
+	</div>
+
+
+</header>
+
+      
+      
+      
+      <div class="post-body">
+        
+        
+          <p><div id="top"></div></p>
+<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<script>AV.initialize("6ubx2xJvB08vhQPXS1cFVS3H-gzGzoHsz", "Td7SpR6PoLepRganKJF59Mgx");</script>
+<script type="text/javascript">
+  var time=0
+  var title=""
+  var url=""
+  var query = new AV.Query('Counter');
+  query.notEqualTo('id',0);
+  query.descending('time');
+  query.limit(1000);
+  query.find().then(function (todo) {
+    for (var i=0;i<1000;i++){
+      var result=todo[i].attributes;
+      time=result.time;
+      title=result.title;
+      url=result.url;
+      var content="<a href='"+"https://fox-w.github.io"+url+"'>"+title+"</a>"+"<br />"+"<font color='#555'>"+"阅读次数："+time+"</font>"+"<br /><br />";
+      document.getElementById("top").innerHTML+=content
+    }
+  }, function (error) {
+    console.log("error");
+  });
+</script>
+
+<style>.post-description { display: none; }</style>
+        
       </div>
-
-      
-	  
-	  
       
       
-
-      
-        
-        <div class="collection-title">
-          <h2 class="archive-year motion-element" id="archive-year-2019">2019</h2>
-        </div>
-      
-      
-	  
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/2019/04/07/2/" itemprop="url">
-              
-                <span itemprop="name">个人博客搭建</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated" datetime="2019-04-07T13:43:25+08:00" content="2019-04-07">
-          04-07
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
       
     </div>
-
+    
+    
+    
   </div>
-  
-  
-  
-
-  
 
 
           </div>
@@ -764,7 +766,9 @@ show_date_time();
 
 
   
-  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
 
 
   
