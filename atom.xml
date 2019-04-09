@@ -5,9 +5,9 @@
   <subtitle>生活如诗</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https://fox-w.github.io/"/>
+  <link href="https://wsxa.top/"/>
   <updated>2019-04-07T07:24:07.235Z</updated>
-  <id>https://fox-w.github.io/</id>
+  <id>https://wsxa.top/</id>
   
   <author>
     <name>wsx</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>个人博客搭建</title>
-    <link href="https://fox-w.github.io/2019/04/07/2/"/>
-    <id>https://fox-w.github.io/2019/04/07/2/</id>
+    <link href="https://wsxa.top/2019/04/07/2/"/>
+    <id>https://wsxa.top/2019/04/07/2/</id>
     <published>2019-04-07T05:43:25.067Z</published>
     <updated>2019-04-07T07:24:07.235Z</updated>
     
@@ -36,19 +36,19 @@
     
     </summary>
     
-      <category term="IT" scheme="https://fox-w.github.io/categories/IT/"/>
+      <category term="IT" scheme="https://wsxa.top/categories/IT/"/>
     
     
-      <category term="hexo" scheme="https://fox-w.github.io/tags/hexo/"/>
+      <category term="hexo" scheme="https://wsxa.top/tags/hexo/"/>
     
-      <category term="github" scheme="https://fox-w.github.io/tags/github/"/>
+      <category term="github" scheme="https://wsxa.top/tags/github/"/>
     
   </entry>
   
   <entry>
     <title>海子的诗（1）</title>
-    <link href="https://fox-w.github.io/2019/04/06/1/"/>
-    <id>https://fox-w.github.io/2019/04/06/1/</id>
+    <link href="https://wsxa.top/2019/04/06/1/"/>
+    <id>https://wsxa.top/2019/04/06/1/</id>
     <published>2019-04-06T13:13:55.001Z</published>
     <updated>2019-04-09T00:38:15.334Z</updated>
     
@@ -60,10 +60,10 @@
     
     </summary>
     
-      <category term="文学" scheme="https://fox-w.github.io/categories/%E6%96%87%E5%AD%A6/"/>
+      <category term="文学" scheme="https://wsxa.top/categories/%E6%96%87%E5%AD%A6/"/>
     
     
-      <category term="诗歌" scheme="https://fox-w.github.io/tags/%E8%AF%97%E6%AD%8C/"/>
+      <category term="诗歌" scheme="https://wsxa.top/tags/%E8%AF%97%E6%AD%8C/"/>
     
   </entry>
   
