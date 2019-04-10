@@ -1872,7 +1872,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff6008;
+  background: #46bd6e;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3221,16 +3221,17 @@ dfn {
   font-weight: 700;
   color: #fff;
   line-height: 80px;
-  letter-spacing: 3px;
+  letter-spacing: 5px;
 }
 .site-title {
   display: inline-block;
   vertical-align: top;
-  font-family: Lato, "Linux Biolinum", 'Noto Serif SC', sans-serif;
+  font-family: "隶书";
 }
 .site-subtitle {
   margin: 0px;
-  font-size: 16px;
+  font-family: "隶书";
+  font-size: 20px;
   letter-spacing: 1px;
   padding-bottom: 3px;
   font-weight: 700;
@@ -3238,6 +3239,7 @@ dfn {
   border-bottom-width: 3px;
   border-bottom-style: solid;
   border-bottom-color: #a166ab;
+  letter-spacing: 3px;
 }
 .menu {
   text-align: center;
