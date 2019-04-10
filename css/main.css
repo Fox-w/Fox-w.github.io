@@ -1912,7 +1912,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ffff2f;
+  background: #ff78ff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2860,14 +2860,6 @@ pre .javascript .function {
   padding-left: 0;
   padding-right: 260px;
 }
-.site-brand-wrapper {
-  position: relative;
-}
-.site-meta {
-  padding: 20px 0;
-  color: #fff;
-  background: #222;
-}
 @media (min-width: 768px) and (max-width: 991px) {
   .site-meta {
     box-shadow: 0 0 16px rgba(0,0,0,0.5);
@@ -2877,9 +2869,6 @@ pre .javascript .function {
   .site-meta {
     box-shadow: 0 0 16px rgba(0,0,0,0.5);
   }
-}
-.brand {
-  padding: 0;
 }
 .brand:hover {
   color: #fff;
@@ -3295,6 +3284,18 @@ address,
 dfn {
   font-style: italic;
 }
+.site-title {
+  font-size: 75px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 80px;
+  letter-spacing: 3px;
+}
+.site-title {
+  display: inline-block;
+  vertical-align: top;
+  font-family: Lato, "Linux Biolinum", 'Noto Serif SC', sans-serif;
+}
 .posts-expand {
   padding-top: 80px;
 }
@@ -3309,13 +3310,6 @@ dfn {
 }
 .posts-expand .post-body {
   text-align: justify !important;
-}
-.site-title {
-  font-size: 75px;
-  font-weight: 700;
-  color: #fff;
-  line-height: 80px;
-  letter-spacing: 3px;
 }
 .site-subtitle {
   margin: 0px;
