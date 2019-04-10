@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://wsxa.top/"/>
-  <updated>2019-04-07T07:24:07.235Z</updated>
+  <updated>2019-04-10T12:55:23.977Z</updated>
   <id>https://wsxa.top/</id>
   
   <author>
@@ -21,18 +21,13 @@
     <link href="https://wsxa.top/2019/04/07/2/"/>
     <id>https://wsxa.top/2019/04/07/2/</id>
     <published>2019-04-07T05:43:25.067Z</published>
-    <updated>2019-04-07T07:24:07.235Z</updated>
+    <updated>2019-04-10T12:55:23.977Z</updated>
     
-    <content type="html"><![CDATA[<p></p><h1><p align="center"><font color="#FF0000">使用github pages服务搭建博客</font></p><h1><p></p><p></p><h2>&nbsp;&nbsp;准备工作</h2><p></p><p></p><p>&nbsp;&nbsp;所需：</p><p></p><ol><br><li>&nbsp;&nbsp;拥有github账号;</li><br><li>&nbsp;&nbsp;安装node.js、npm;</li><br><li>&nbsp;&nbsp;安装git.</li><br></ol></h1></h1>]]></content>
+    <content type="html"><![CDATA[<p class="description"></p><a id="more"></a><p></p><h1><p align="center">使用github pages服务搭建博客</p><h1><p></p><p></p><h2>&nbsp;&nbsp;准备工作</h2><p></p><p></p><p>&nbsp;&nbsp;所需：</p><p></p><ol><br><li>&nbsp;&nbsp;拥有github账号;</li><br><li>&nbsp;&nbsp;安装node.js、npm;</li><br><li>&nbsp;&nbsp;安装git.</li><br></ol></h1></h1>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;p&gt;&lt;/p&gt;&lt;h1&gt;&lt;p align=&quot;center&quot;&gt;&lt;font color=&quot;#FF0000&quot;&gt;使用github pages服务搭建博客&lt;/font&gt;&lt;/p&gt;&lt;h1&gt;&lt;p&gt;&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;h2&gt;&amp;nbsp;&amp;nbsp;准备工作&lt;/h2&gt;&lt;p&gt;&lt;/p&gt;
-&lt;p&gt;&lt;/p
-      
+      新手上路
     
     </summary>
     
