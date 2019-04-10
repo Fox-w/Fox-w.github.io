@@ -1778,19 +1778,6 @@ pre .javascript .function {
   overflow-y: auto;
   overflow-x: hidden;
 }
-.sidebar-toggle {
-  position: fixed;
-  right: 30px;
-  bottom: 45px;
-  width: 14px;
-  height: 14px;
-  padding: 5px;
-  background: #222;
-  line-height: 0;
-  z-index: 1050;
-  cursor: pointer;
-  -webkit-transform: translateZ(0);
-}
 @media (min-width: 768px) and (max-width: 991px) {
   .sidebar-toggle {
     right: 20px;
@@ -1802,15 +1789,6 @@ pre .javascript .function {
     right: 20px;
     opacity: 0.8;
   }
-}
-.sidebar-toggle-line {
-  position: relative;
-  display: inline-block;
-  vertical-align: top;
-  height: 2px;
-  width: 100%;
-  background: #fff;
-  margin-top: 3px;
 }
 .sidebar-toggle-line:first-child {
   margin-top: 0;
@@ -1912,7 +1890,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff78ff;
+  background: #3e05ff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2770,9 +2748,6 @@ pre .javascript .function {
     padding-bottom: 100px;
   }
 }
-.container .main-inner {
-  width: 75%;
-}
 @media (min-width: 768px) and (max-width: 991px) {
   .container .main-inner {
     width: auto;
@@ -2781,31 +2756,6 @@ pre .javascript .function {
 @media (max-width: 767px) {
   .container .main-inner {
     width: auto;
-  }
-}
-.content-wrap {
-  float: right;
-  box-sizing: border-box;
-  padding: 40px;
-  width: calc(100% - 252px);
-  background: #fff;
-  min-height: 700px;
-  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.06), 0 1px 5px 0 rgba(0,0,0,0.12);
-  border-radius: initial;
-}
-@media (min-width: 768px) and (max-width: 991px) {
-  .content-wrap {
-    width: 100%;
-    padding: 20px;
-    border-radius: initial;
-  }
-}
-@media (max-width: 767px) {
-  .content-wrap {
-    width: 100%;
-    padding: 20px;
-    min-height: auto;
-    border-radius: initial;
   }
 }
 .sidebar {
@@ -3296,21 +3246,6 @@ dfn {
   vertical-align: top;
   font-family: Lato, "Linux Biolinum", 'Noto Serif SC', sans-serif;
 }
-.posts-expand {
-  padding-top: 80px;
-}
-.posts-expand .post-meta {
-  margin: 5px 0px 0px 0px;
-}
-.post-button {
-  margin-top: 0px;
-}
-.main {
-  padding-bottom: 120px;
-}
-.posts-expand .post-body {
-  text-align: justify !important;
-}
 .site-subtitle {
   margin: 0px;
   font-size: 16px;
@@ -3321,9 +3256,6 @@ dfn {
   border-bottom-width: 3px;
   border-bottom-style: solid;
   border-bottom-color: #a166ab;
-}
-.use-motion .menu-item {
-  opacity: 1;
 }
 .menu {
   text-align: center;
@@ -3396,47 +3328,83 @@ a:-webkit-any-link {
 .menu .menu-item a:hover {
   border-bottom-color: rgba(161,102,171,0);
 }
+.main {
+  padding-bottom: 120px;
+}
+.main-inner {
+  margin: 0 auto;
+  width: 780px;
+}
+.posts-expand {
+  padding-top: 80px;
+}
 .post {
   margin-bottom: 50px;
   padding: 45px 36px 36px 36px;
   box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
   background-color: #fff;
 }
-.container.sidebar-position-left.page-post-detail .post {
-  padding: 6em 4em;
+link {
+  display: none;
 }
-.container.sidebar-position-left.page-post-detail .post-body h2,
-.container.sidebar-position-left.page-post-detail h3,
-.container.sidebar-position-left.page-post-detail h4,
-.container.sidebar-position-left.page-post-detail h5,
-.container.sidebar-position-left.page-post-detail h6 {
-  border-left: 4px solid #a166ab;
-  margin-left: -64px;
-  padding-left: 60px;
-}
-.container.sidebar-position-left.page-post-detail .posts-expand .post-meta {
-  margin-top: 2em;
-}
-.container.sidebar-position-left.page-post-detail .posts-expand .post-title {
-  font-size: 28px;
-}
-@media (min-width: 1600px) {
-  .post-body h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    border-left: 4px solid #a166ab !important;
-    margin-left: -72px !important;
-    padding-left: 68px !important;
-  }
+meta {
+  display: none;
 }
 .posts-expand .post-title {
   font-size: 26px;
   font-weight: 700;
+  text-align: center;
+  word-break: break-word;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  font-family: "Linux Biolinum", 'Noto Serif SC', sans-serif;
+}
+:-webkit-any(article,
+aside,
+nav,
+section) :-webkit-any(article,
+section) h1 {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+}
+h1 {
+  display: block;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.posts-expand .post-title-link {
+  display: inline-block;
+  position: relative;
+  color: #555;
+  border-bottom: none;
+  line-height: 1.2;
+  vertical-align: top;
 }
 .posts-expand .post-title-link::before {
   background-image: linear-gradient(90deg, #a166ab 0%, #ef4e7b 25%, #f37055 50%, #ef4e7b 75%, #a166ab 100%);
+}
+.posts-expand .post-meta {
+  margin: 10px 0px 10px 0px;
+}
+.posts-expand .post-meta {
+  color: #999;
+  font-family: "Linux Biolinum", 'Noto Serif SC', sans-serif;
+  font-size: 12px;
+  text-align: center;
+}
+.post-button {
+  margin-top: 0px;
+}
+.posts-expand .post-body {
+  text-align: justify !important;
 }
 .posts-expand .post-meta {
   margin: 10px 0px 10px 0px;
@@ -3590,26 +3558,37 @@ pre .deletion {
   border-radius: 5px;
   box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.35);
 }
-.page-post-detail .sidebar-toggle-line {
-  background: #07b39b;
+.sidebar-toggle {
+  position: fixed;
+  width: 14px;
+  height: 14px;
+  padding: 5px;
+  background: #222;
+  line-height: 0;
+  z-index: 1050;
+  cursor: pointer;
 }
-.back-to-top {
-  line-height: 1.5;
-  right: 10px;
-  padding-right: 5px;
-  padding-left: 5px;
-  padding-top: 2.5px;
-  padding-bottom: 2.5px;
-  background-color: rgba(247,149,51,0.75);
-  border-radius: 5px;
-  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.35);
+.sidebar-toggle-line:first-child {
+  margin-top: 0;
 }
-.back-to-top.back-to-top-on {
-  bottom: 10px;
+.sidebar-toggle-line {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  height: 2px;
+  background: #fff;
 }
 .sidebar {
   box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0.5);
   background-color: rgba(0,0,0,0.75);
+}
+.sidebar {
+  position: fixed;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 1040;
+  background: #222;
 }
 .sidebar-inner {
   margin-top: 30px;
