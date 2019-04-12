@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[个人博客搭建]]></title>
     <url>%2F2019%2F04%2F07%2F2%2F</url>
-    <content type="text"><![CDATA[使用github pages服务搭建博客 &nbsp;&nbsp;准备工作 &nbsp;&nbsp;所需： &nbsp;&nbsp;拥有github账号;&nbsp;&nbsp;安装node.js、npm;&nbsp;&nbsp;安装git.]]></content>
+    <content type="text"><![CDATA[使用github pages服务搭建博客 准备工作 所需： 拥有github账号; 安装node.js、npm; 安装git. document.querySelectorAll('.github-emoji') .forEach(el => { if (!el.dataset.src) { return; } const img = document.createElement('img'); img.style = 'display:none !important;'; img.src = el.dataset.src; img.addEventListener('error', () => { img.remove(); el.style.color = 'inherit'; el.style.backgroundImage = 'none'; el.style.background = 'none'; }); img.addEventListener('load', () => { img.remove(); }); document.body.appendChild(img); });]]></content>
       <categories>
         <category>IT</category>
       </categories>
@@ -15,7 +15,7 @@
   <entry>
     <title><![CDATA[海子的诗（1）]]></title>
     <url>%2F2019%2F04%2F06%2F1%2F</url>
-    <content type="text"><![CDATA[1&lt;img src="https://i.loli.net/2019/04/12/5cb0515439fbc.jpg" alt="hz1.jpg" style="width:100%"&gt; 第一弹 活在珍贵的人间 —海子活在这珍贵的人间 太阳强烈 水波温柔 一层层白云覆盖着 我 踩在青草上 感到自己是彻底干净的黑土块 活在这珍贵的人间 泥土高溅 扑打面颊 活在这珍贵的人间 人类和植物一样幸福 爱情和雨水一样幸福 ——选自《海子诗全集》，作家出版社]]></content>
+    <content type="text"><![CDATA[1 第一弹 活在珍贵的人间 —海子活在这珍贵的人间 太阳强烈 水波温柔 一层层白云覆盖着 我 踩在青草上 感到自己是彻底干净的黑土块 活在这珍贵的人间 泥土高溅 扑打面颊 活在这珍贵的人间 人类和植物一样幸福 爱情和雨水一样幸福 ——选自《海子诗全集》，作家出版社 document.querySelectorAll('.github-emoji') .forEach(el => { if (!el.dataset.src) { return; } const img = document.createElement('img'); img.style = 'display:none !important;'; img.src = el.dataset.src; img.addEventListener('error', () => { img.remove(); el.style.color = 'inherit'; el.style.backgroundImage = 'none'; el.style.background = 'none'; }); img.addEventListener('load', () => { img.remove(); }); document.body.appendChild(img); });]]></content>
       <categories>
         <category>文学</category>
       </categories>

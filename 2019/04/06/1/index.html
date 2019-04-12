@@ -460,7 +460,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  129
+                  162
                 </span>
               
 
@@ -491,7 +491,7 @@
       
         <p class="description"></p>
 
-<figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;img <span class="attribute">src</span>=<span class="string">"https://i.loli.net/2019/04/12/5cb0515439fbc.jpg"</span> <span class="attribute">alt</span>=<span class="string">"hz1.jpg"</span> <span class="attribute">style</span>=<span class="string">"width:100%"</span>&gt;</span><br></pre></td></tr></table></figure>
+<figure class="highlight routeros"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><img <span class="attribute">src</span>=<span class="string">"https://i.loli.net/2019/04/12/5cb0515439fbc.jpg"</span> <span class="attribute">alt</span>=<span class="string">"hz1.jpg"</span> <span class="attribute">style</span>=<span class="string">"width:100%"</span>><br></pre></td></tr></tbody></table></figure>
 <a id="more"></a>
 <center><b>第一弹</b></center>
 
@@ -499,20 +499,48 @@
 <blockquote>
 <center><b>活在珍贵的人间 </b></center>
 
-<p><center>—海子<br><br><br>活在这珍贵的人间 <br><br>太阳强烈 <br><br>水波温柔 <br><br>一层层白云覆盖着 <br><br>我 <br><br>踩在青草上 <br><br>感到自己是彻底干净的黑土块 </center><br></p>
+<p></p><center>—海子<br><br><br>活在这珍贵的人间 <br><br>太阳强烈 <br><br>水波温柔 <br><br>一层层白云覆盖着 <br><br>我 <br><br>踩在青草上 <br><br>感到自己是彻底干净的黑土块 </center><br><p></p>
 </blockquote>
 <blockquote>
 <center>活在这珍贵的人间 <br><br>泥土高溅 <br><br>扑打面颊 <br><br>活在这珍贵的人间 <br><br>人类和植物一样幸福 <br><br>爱情和雨水一样幸福 <br><br><br>   ——选自《海子诗全集》，作家出版社</center>
 </blockquote>
 <hr>
 
-
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>
       
     </div>
     
     
     
-
+	
+	<div>
+  
+    <div>
+    
+        <div style="text-align:center;color: #ccc;font-size:14px;">本 文 结 束 啦 ♥ 感 谢 您 的 阅 读</div>
+    
+</div>
+  
+	</div>
+	
     
 
     
