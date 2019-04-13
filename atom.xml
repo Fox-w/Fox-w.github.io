@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://wsxa.top/"/>
-  <updated>2019-04-13T03:15:34.295Z</updated>
+  <updated>2019-04-13T06:11:58.938Z</updated>
   <id>https://wsxa.top/</id>
   
   <author>
@@ -17,13 +17,13 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>hexo下个人博客搭建</title>
+    <title>个人博客搭建</title>
     <link href="https://wsxa.top/2019/04/07/2/"/>
     <id>https://wsxa.top/2019/04/07/2/</id>
     <published>2019-04-07T05:43:25.067Z</published>
-    <updated>2019-04-13T03:15:34.295Z</updated>
+    <updated>2019-04-13T06:11:58.938Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p class="description"></p><a id="more"></a><h1 id="使用github-pages服务搭建博客"><a href="#使用github-pages服务搭建博客" class="headerlink" title="使用github pages服务搭建博客"></a><center>使用github pages服务搭建博客</center></h1><hr><h2 id="1-准备工作"><a href="#1-准备工作" class="headerlink" title="1. 准备工作"></a>1. 准备工作</h2><blockquote><p><strong>所需：</strong></p><blockquote><ul><li><em>拥有<code>github</code>账号.</em></li><li><em>安装<code>node.js</code>、<code>npm</code>.</em></li><li><em>安装<code>git</code>.</em></li><li><em>拥有<code>域名</code>.</em></li></ul></blockquote></blockquote><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p class="description"></p><a id="more"></a><h1 id="使用github-pages服务搭建博客"><a href="#使用github-pages服务搭建博客" class="headerlink" title="使用github pages服务搭建博客"></a><center>使用github pages服务搭建博客</center></h1><hr><p><table><tbody><tr><td bgcolor="bfe1f1"><h2>1. 前言</h2></td></tr></tbody></table></p><h3 id="1-1-准备工作"><a href="#1-1-准备工作" class="headerlink" title="1.1 准备工作"></a>1.1 准备工作</h3><p><strong>所需：</strong>  </p><blockquote><p>   <em>拥有<code>github</code>账号.</em><br>   <em>安装<code>node.js</code>、<code>npm</code>.</em><br>   <em>安装<code>git</code>.</em><br>   <em>拥有<code>域名</code>.</em></p></blockquote><p><table><tbody><tr><td bgcolor="bfe1f1"><h2>2. github账号应用</h2></td></tr></tbody></table></p><h3 id="2-1-账号注册"><a href="#2-1-账号注册" class="headerlink" title="2.1 账号注册"></a>2.1 账号注册</h3><ol><li>百度找到<a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>官方网站</li><li>点击<code>Sign up</code>注册GitHub账号</li><li>注册步骤<br> 第一步<br>   填写账号邮箱密码，点击<code>create an account</code> 进入下一步<br>   系统会向你填写的邮箱发送一封确认邮件，去登陆邮箱确认。<br> 第二步<br>   保持默认，点击<code>continue</code>跳到下一步<br> 第三步<br>   问卷可选填，然后点击提交按钮，账号就注册成功。<h3 id="2-2-创建仓库"><a href="#2-2-创建仓库" class="headerlink" title="2.2 创建仓库"></a>2.2 创建仓库</h3></li><li>点击右上角<code>+▼</code>记号展开列表<br><img src="/images/2/github1.png" alt="github"></li><li>点击<code>New repository</code>，出现下图页面<br><img src="/images/2/github2.png" alt="github"> </li><li><p>仓库信息填写  </p><blockquote><p>注意:<br>  1. <code>repository name</code>下名字为<code>xxx.github.io</code><br>   其中<code>xxx</code>为你github账户用户名，即<code>owner</code><br>  2.库一定要选<code>public</code></p></blockquote></li><li><p>点击<code>Create repository</code>即可<br><img src="/images/2/github3.png" alt="github"><br>左侧<code>xxx/xxx.github.io</code>即为你刚才新建的仓库，<code>xxx</code>为你自己的用户名</p></li></ol><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
     
     <summary type="html">
     

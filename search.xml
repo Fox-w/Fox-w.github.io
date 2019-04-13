@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[hexo下个人博客搭建]]></title>
+    <title><![CDATA[个人博客搭建]]></title>
     <url>%2F2019%2F04%2F07%2F2%2F</url>
-    <content type="text"><![CDATA[使用github pages服务搭建博客 1. 准备工作 所需： 拥有github账号. 安装node.js、npm. 安装git. 拥有域名. document.querySelectorAll('.github-emoji') .forEach(el => { if (!el.dataset.src) { return; } const img = document.createElement('img'); img.style = 'display:none !important;'; img.src = el.dataset.src; img.addEventListener('error', () => { img.remove(); el.style.color = 'inherit'; el.style.backgroundImage = 'none'; el.style.background = 'none'; }); img.addEventListener('load', () => { img.remove(); }); document.body.appendChild(img); });]]></content>
+    <content type="text"><![CDATA[使用github pages服务搭建博客 1. 前言 1.1 准备工作所需： 拥有github账号. 安装node.js、npm. 安装git. 拥有域名. 2. github账号应用 2.1 账号注册 百度找到GitHub官方网站 点击Sign up注册GitHub账号 注册步骤 第一步 填写账号邮箱密码，点击create an account 进入下一步 系统会向你填写的邮箱发送一封确认邮件，去登陆邮箱确认。 第二步 保持默认，点击continue跳到下一步 第三步 问卷可选填，然后点击提交按钮，账号就注册成功。2.2 创建仓库 点击右上角+▼记号展开列表 点击New repository，出现下图页面 仓库信息填写 注意: 1. repository name下名字为xxx.github.io 其中xxx为你github账户用户名，即owner 2.库一定要选public 点击Create repository即可左侧xxx/xxx.github.io即为你刚才新建的仓库，xxx为你自己的用户名 document.querySelectorAll('.github-emoji') .forEach(el => { if (!el.dataset.src) { return; } const img = document.createElement('img'); img.style = 'display:none !important;'; img.src = el.dataset.src; img.addEventListener('error', () => { img.remove(); el.style.color = 'inherit'; el.style.backgroundImage = 'none'; el.style.background = 'none'; }); img.addEventListener('load', () => { img.remove(); }); document.body.appendChild(img); });]]></content>
       <categories>
         <category>IT</category>
       </categories>
