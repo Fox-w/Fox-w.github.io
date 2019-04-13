@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[个人博客搭建]]></title>
     <url>%2F2019%2F04%2F07%2F2%2F</url>
-    <content type="text"><![CDATA[使用github pages服务搭建博客 准备工作 所需： 拥有github账号; 安装node.js、npm; 安装git. document.querySelectorAll('.github-emoji') .forEach(el => { if (!el.dataset.src) { return; } const img = document.createElement('img'); img.style = 'display:none !important;'; img.src = el.dataset.src; img.addEventListener('error', () => { img.remove(); el.style.color = 'inherit'; el.style.backgroundImage = 'none'; el.style.background = 'none'; }); img.addEventListener('load', () => { img.remove(); }); document.body.appendChild(img); });]]></content>
+    <content type="text"><![CDATA[#使用github pages服务搭建博客##1. 准备工作 所需： 拥有github账号. 安装node.js、npm. 安装git. document.querySelectorAll('.github-emoji') .forEach(el => { if (!el.dataset.src) { return; } const img = document.createElement('img'); img.style = 'display:none !important;'; img.src = el.dataset.src; img.addEventListener('error', () => { img.remove(); el.style.color = 'inherit'; el.style.backgroundImage = 'none'; el.style.background = 'none'; }); img.addEventListener('load', () => { img.remove(); }); document.body.appendChild(img); });]]></content>
       <categories>
         <category>IT</category>
       </categories>
