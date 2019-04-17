@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://wsxa.top/"/>
-  <updated>2019-04-14T09:52:31.466Z</updated>
+  <updated>2019-04-17T12:42:48.292Z</updated>
   <id>https://wsxa.top/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://wsxa.top/2019/04/14/4/"/>
     <id>https://wsxa.top/2019/04/14/4/</id>
     <published>2019-04-14T09:28:29.065Z</published>
-    <updated>2019-04-14T09:52:31.466Z</updated>
+    <updated>2019-04-17T12:42:48.292Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p></p><p class="description"></p><p><br><a id="more"></a><br><img src="/music/post-rock_2/nf.png" alt></p><p></p><center>蝶道还在，可甜梅号没了</center><br>        <div id="aplayer-ugNMytis" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">            <pre class="aplayer-lrc-content"></pre>        </div>        <script>          var ap = new APlayer({            element: document.getElementById("aplayer-ugNMytis"),            narrow: false,            autoplay: false,            showlrc: false,            music: {              title: "南方蝶道",              author: "甜梅号",              url: "/music/post-rock_2/南方蝶道.mp3",              pic: "/music/post-rock_2/甜梅号.png",              lrc: ""            }          });          window.aplayers || (window.aplayers = []);          window.aplayers.push(ap);        </script><p></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p></p><p class="description"></p><p><br><a id="more"></a><br><img src="/music/post-rock_2/nf.png" alt></p><p></p><center>蝶道还在，可甜梅号没了</center><br>        <div id="aplayer-euzqDZLc" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">            <pre class="aplayer-lrc-content"></pre>        </div>        <script>          var ap = new APlayer({            element: document.getElementById("aplayer-euzqDZLc"),            narrow: false,            autoplay: false,            showlrc: false,            music: {              title: "南方蝶道",              author: "甜梅号",              url: "/music/post-rock_2/南方蝶道.mp3",              pic: "/music/post-rock_2/甜梅号.png",              lrc: ""            }          });          window.aplayers || (window.aplayers = []);          window.aplayers.push(ap);        </script><p></p><hr><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
     
     <summary type="html">
     
@@ -31,10 +31,10 @@
     
     </summary>
     
-      <category term="Post-Rock" scheme="https://wsxa.top/categories/Post-Rock/"/>
+      <category term="Music" scheme="https://wsxa.top/categories/Music/"/>
     
     
-      <category term="Music" scheme="https://wsxa.top/tags/Music/"/>
+      <category term="Post-Rock" scheme="https://wsxa.top/tags/Post-Rock/"/>
     
   </entry>
   
@@ -43,9 +43,9 @@
     <link href="https://wsxa.top/2019/04/14/3/"/>
     <id>https://wsxa.top/2019/04/14/3/</id>
     <published>2019-04-14T08:06:54.579Z</published>
-    <updated>2019-04-14T09:27:09.480Z</updated>
+    <updated>2019-04-17T12:47:12.413Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p></p><p class="description"></p><p><br><a id="more"></a><br><img src="/music/post-rock_1/ch.png" alt></p><p></p><center>文雀雁引愁心去，彩虹山衔好月来——摘自网友蛋泥儿</center><br>        <div id="aplayer-odiMKSwJ" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">            <pre class="aplayer-lrc-content"></pre>        </div>        <script>          var ap = new APlayer({            element: document.getElementById("aplayer-odiMKSwJ"),            narrow: false,            autoplay: false,            showlrc: false,            music: {              title: "彩虹山",              author: "文雀",              url: "/music/post-rock_1/彩虹山.mp3",              pic: "/music/post-rock_1/文雀.png",              lrc: ""            }          });          window.aplayers || (window.aplayers = []);          window.aplayers.push(ap);        </script><p></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p></p><p class="description"></p><p><br><a id="more"></a><br><img src="/music/post-rock_1/ch.png" alt></p><p></p><center>文雀雁引愁心去，彩虹山衔好月来——摘自网友蛋泥儿</center><br>        <div id="aplayer-fYcUvttS" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">            <pre class="aplayer-lrc-content"></pre>        </div>        <script>          var ap = new APlayer({            element: document.getElementById("aplayer-fYcUvttS"),            narrow: false,            autoplay: false,            showlrc: false,            music: {              title: "彩虹山",              author: "文雀",              url: "/music/post-rock_1/彩虹山.mp3",              pic: "/music/post-rock_1/文雀.png",              lrc: ""            }          });          window.aplayers || (window.aplayers = []);          window.aplayers.push(ap);        </script><p></p><hr><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
     
     <summary type="html">
     
@@ -53,10 +53,10 @@
     
     </summary>
     
-      <category term="Post-Rock" scheme="https://wsxa.top/categories/Post-Rock/"/>
+      <category term="Music" scheme="https://wsxa.top/categories/Music/"/>
     
     
-      <category term="Music" scheme="https://wsxa.top/tags/Music/"/>
+      <category term="Post-Rock" scheme="https://wsxa.top/tags/Post-Rock/"/>
     
   </entry>
   
